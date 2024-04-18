@@ -1,0 +1,7 @@
+{
+  "name": "strebla_innovation",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
