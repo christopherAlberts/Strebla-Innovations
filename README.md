@@ -24,3 +24,21 @@ git commit -m "Resolved
 conflicts"
 
 git push origin main
+
+## Change Brances
+
+> git checkout main
+
+## Push changes
+
+Checkout the gh-pages branch:
+
+> git checkout gh-pages
+
+Merge main into gh-pages:
+
+> git merge main
+
+Push gh-pages to update the remote branch:
+
+> git push origin gh-pages
