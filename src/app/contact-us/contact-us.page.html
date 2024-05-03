@@ -1,0 +1,77 @@
+
+
+<ion-header [translucent]="true">
+
+  <ion-toolbar>
+    <ion-title>Contact Us</ion-title>
+  </ion-toolbar>
+
+  <ion-buttons slot="end">
+    <ion-button routerLink="/home">STREBLA INNOVATIONS</ion-button>
+  </ion-buttons>
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+  <input type="hidden" name="access_key" value="602101fd-3303-4787-a88f-95129b6ca77b">
+
+<!-- <ion-card>
+    <ion-list>
+      <ion-item>
+        <ion-label position="floating">Name</ion-label>
+        <ion-input [(ngModel)]="contactData.name" type="text" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input [(ngModel)]="contactData.email" type="email" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Message</ion-label>
+        <ion-textarea [(ngModel)]="contactData.message" required></ion-textarea>
+      </ion-item>
+      <ion-button expand="block" (click)="sendEmail()" color="primary">Send Message</ion-button>
+      <div>
+        <h1>
+          Email: Christopher.alberts0&#64;gmail.com
+        </h1>
+      </div>
+    </ion-list>
+    
+
+</ion-card> -->
+
+
+<ion-card>
+  <div class="title">Contact us</div>
+  <div class="title-info">We'll get back to you soon!</div>
+
+  <form action="" method="" class="form">
+      <div class="input-group">
+          <input type="text" name="first_name" id="first-name" placeholder="First name">
+          <label for="first-name">First name</label>
+      </div>
+      
+      <div class="input-group">
+          <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+          <label for="last-name">Last name</label>
+      </div>
+
+      <div class="input-group">
+          <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+          <label for="e-mail">e-mail</label>
+      </div>
+
+      <div class="textarea-group">
+          <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+          <label for="message">Message</label>
+      </div>
+
+      <div class="button-div">
+          <button type="submit">Send</button>
+      </div>
+  </form>
+</ion-card>
+
+</ion-content>

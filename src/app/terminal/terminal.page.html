@@ -1,0 +1,68 @@
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<!-- <ion-content [fullscreen]="true">
+  <div id="terminal" #terminal>
+    <img src="../../assets/terminal/scanlines.png" id="scan" class="noselect">
+    <img src="../../assets/terminal/bezel.png" id="bezel" class="noselect">
+    <div id="content">
+        <h1>Terminal:</h1>
+        <h3>Version: 1.0.0.0</h3>
+
+        <div id="output" #output></div>
+        <div id="inputLine">
+            <span id="inputPrompt">user&gt; </span>
+            <div id="inputArea" #inputArea contenteditable="true"></div>
+        </div>
+    </div>
+  </div>
+</ion-content> -->
+
+<ion-content [fullscreen]="true">
+  <div id="terminal" #terminal>
+    <img src="assets/terminal/scanlines.png" id="scan" class="noselect">
+    <img src="assets/terminal/bezel.png" id="bezel" class="noselect">
+    <div id="content">
+      <img src="assets/terminal/strebla_innovation_fallout_font_logo.png" alt="fallout-font" border="0">
+        <h1>Terminal:</h1>
+        <h3>Version: 1.0.0.0</h3>
+        <div id="output" #output></div>
+        <div id="inputLine">
+          <span id="inputPrompt" #inputPrompt>user&gt; </span>
+            <div id="inputArea" #inputArea contenteditable="true"></div>
+        </div>
+    </div>
+    <div style="position: absolute; bottom: 80px; right: 60px; display: flex; flex-direction: column; align-items: center;">
+      <!-- <ion-button
+        class="transparent-button"
+        (click)="increaseTextSize(); $event.stopPropagation()">
+        <ion-icon name="add" class="green-icon"></ion-icon>
+      </ion-button>
+      <ion-button
+        class="transparent-button"
+        (click)="decreaseTextSize(); $event.stopPropagation()">
+        <ion-icon name="remove" class="green-icon"></ion-icon>
+      </ion-button> -->
+
+      <!-- <ion-button class="transparent-button" (click)="increaseTextSize()">
+        <ion-icon name="add" class="green-icon"></ion-icon>
+      </ion-button>
+      <ion-button class="transparent-button" (click)="decreaseTextSize()">
+        <ion-icon name="remove" class="green-icon"></ion-icon>
+      </ion-button> -->
+
+      <div class="transparent-button" (click)="increaseTextSize()">
+        <ion-icon name="add" class="green-icon"></ion-icon>
+      </div>
+      <div class="transparent-button" (click)="decreaseTextSize()">
+        <ion-icon name="remove" class="green-icon"></ion-icon>
+      </div>
+
+    </div>
+  </div>
+</ion-content>
+
+
+
+
